@@ -1,0 +1,154 @@
+body {
+    width: 800px;
+    margin: 0 auto;
+    background-color: #fff4ed;
+    border: 3px solid #931420;
+}
+
+header {
+    background: linear-gradient(30deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
+    border-bottom: 3px solid #931420;
+    padding-top: 1.5em;
+}
+
+.logo {
+    float: left;
+    margin-right: 30px;
+}
+
+h2 {
+    font-size: 170%;
+    font-weight: bold;
+}
+
+h2.sotm {
+    font-size: 170%;
+    font-weight: bold;
+    border-bottom: 3px solid black;
+    
+}
+
+h3 {
+    font-size: 140%;
+    color:#931420
+}
+
+h3.this-season-speakers {
+    border: 2px double #931420;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+    background-color: #fff4ed;
+}
+
+main {
+    display: flex;
+}
+
+aside {
+    width: 215px;
+    padding: 20px;
+    float: left;
+}
+
+section {
+    width: 525px;
+    float: right;
+    padding: 20px;
+}
+
+footer {
+    clear: both;
+    background-color: #931420;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.shadow {
+    font-weight: bold;
+    text-shadow: 1px 1px 5px rgba(128, 0, 0, 0.5);
+}
+
+blockquote {
+    font-style: italic;
+    margin: 0 0 1em;
+}
+
+section h3 + h4 {
+    font-size: 150%;
+    padding-top: 0.5em;
+    padding-bottom: 0.25em;
+    margin: 0;
+}
+
+h1 {
+    font-size: 220%;
+    color:#931420;
+    margin: 0;
+}
+
+section img {
+    float: right;
+    margin: 0 0 10px 10px;
+    border: 1px solid #000;
+}
+
+p.bold {
+    font-weight: bold;
+}
+
+ul.circle-bullets {
+    list-style-type: circle;
+    padding-left: 20px;
+}
+
+/* Navbar Styles */
+#nav_menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background-color: #800000;
+}
+
+#nav_menu li {
+    position: relative;
+    flex: 1;
+    text-align: center;
+}
+
+#nav_menu a {
+    display: block;
+    color: white;
+    padding: 1em 0;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#nav_menu a:hover, #nav_menu .current a {
+    color: yellow;
+}
+
+/* Submenu Styles */
+.submenu {
+    display: none !important;
+    position: absolute;
+    width: 100%;
+    background-color: #800000;
+}
+
+#nav_menu li:hover > .submenu {
+    display: block !important;
+}
+
+.submenu a {
+    padding: 0.5em 0;
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+
+.submenu a:hover {
+    background-color: #931420;
+}
